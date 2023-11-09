@@ -1,4 +1,26 @@
-/* Add screen styles below */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+    color: #242424
+    border-top: 10px solid #242424
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
 img {
     width: 100%
+}
+
+#blog {
+
+}
+
+.blog_post {
+
 }
