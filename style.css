@@ -15,6 +15,20 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 100;
+}
+
+article {
+    background: #efefef;
+    margin: 20px;
+}
 p {
     line-height: 1.4em;
 }
@@ -23,10 +37,42 @@ img {
     width: 100%
 }
 
+fieldset {
+    margin-top: 20px;
+    border: solid 1px #ccc;
+}
+
+legend {
+    padding: 0, 10px;
+}
+
+Label {
+    display: block;
+    margin-top: 1em;
+}
+
+button {
+    width: 100px;
+}
+
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
+}
+
+.blog-post:nth-of-type(1) {
+    flex: 1;
+}
+
+.blog-post:nth-of-type(2) {
+    flex: 1;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }

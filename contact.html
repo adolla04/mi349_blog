@@ -9,36 +9,41 @@
   </head>
   <body>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class="sticky">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
     <section>
       <h2>Contact Information</h2>
       <p>Interested in chatting with me? Fill out this contact form!</p>
     </section>
     <section>
-      <h2>Contact Form:</h2>
+      <h3>Contact Form:</h3>
       <form>
-        <Label>Name:
-          <input type="text">
-        </Label>
-        <Label>Email address:
-          <input type="text">
-        </Label>
-        <Label>Reason for contact:
-          <select name="reasons" id="reasons" multiple>
-            <option value="saying hi">Saying hi</option>
-            <option value="looking for a contractor">Looking for a contractor</option>
-            <option value="interested in an interview">Interested in an interview</option>
-          </select>
-        </Label>
-        <Label>Comments:
-          <input type="text">
-        </Label>
-        <button>Submit</button>
+        <fieldset>
+          <legend>Contact Us</legend>
+          <Label>Name:
+            <input type="text">
+          </Label>
+          <Label>Email address:
+            <input type="text">
+          </Label>
+          <Label>Reason for contact:
+            <select name="reasons" id="reasons" multiple>
+              <option value="saying hi">Saying hi</option>
+              <option value="looking for a contractor">Looking for a contractor</option>
+              <option value="interested in an interview">Interested in an interview</option>
+            </select>
+          </Label>
+          <Label>Comments:
+            <input type="text">
+          </Label>
+          <button>Submit</button>
+        </fieldset>
       </form>
     </section>
     <script src="index.js"></script>
