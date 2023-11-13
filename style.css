@@ -29,12 +29,14 @@ article {
     background: #efefef;
     margin: 20px;
 }
+
 p {
     line-height: 1.4em;
 }
 
 img {
-    width: 100%
+    width: 100%;
+    float: left;
 }
 
 fieldset {
